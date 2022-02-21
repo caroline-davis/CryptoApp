@@ -36,7 +36,7 @@ struct CircleButtonView_Previews: PreviewProvider {
             CircleButtonView(iconName: "plus")
                 // this makes the correct size not a screen one
                 .previewLayout(.sizeThatFits)
-                .colorScheme(.dark)
+                .preferredColorScheme(.dark)
         }
     }
 }
