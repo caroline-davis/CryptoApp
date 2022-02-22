@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F05648F127C446E1003D32F5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05648F027C446E1003D32F5 /* HomeViewModel.swift */; };
 		F064E46927C3028000D5F17A /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064E46827C3028000D5F17A /* SwiftfulCryptoApp.swift */; };
 		F064E46B27C3028000D5F17A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064E46A27C3028000D5F17A /* ContentView.swift */; };
 		F064E46D27C3028100D5F17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F064E46C27C3028100D5F17A /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F05648F027C446E1003D32F5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = SwiftfulCrypto/Extensions/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		F064E46527C3028000D5F17A /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F064E46827C3028000D5F17A /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		F064E46A27C3028000D5F17A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		F064E47F27C31D9D00D5F17A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F05648F027C446E1003D32F5 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0B4BC1827C3514200814467 /* CoinRowView.swift in Sources */,
+				F05648F127C446E1003D32F5 /* HomeViewModel.swift in Sources */,
 				F064E46B27C3028000D5F17A /* ContentView.swift in Sources */,
 				F064E48127C31DE600D5F17A /* HomeView.swift in Sources */,
 				F064E46927C3028000D5F17A /* SwiftfulCryptoApp.swift in Sources */,
