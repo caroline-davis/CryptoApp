@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F05648F027C446E1003D32F5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = SwiftfulCrypto/Extensions/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F05648F027C446E1003D32F5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = SwiftfulCrypto/Core/Home/HomeViewModels/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		F064E46527C3028000D5F17A /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F064E46827C3028000D5F17A /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		F064E46A27C3028000D5F17A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F01A7EE827C4AB6C00828474 /* HomeViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F05648F027C446E1003D32F5 /* HomeViewModel.swift */,
+			);
+			path = HomeViewModels;
+			sourceTree = "<group>";
+		};
 		F064E45C27C3028000D5F17A = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +120,7 @@
 		F064E47D27C31D9000D5F17A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F064E47F27C31D9D00D5F17A /* ViewModels */,
+				F01A7EE827C4AB6C00828474 /* HomeViewModels */,
 				F064E47E27C31D9900D5F17A /* Views */,
 			);
 			path = Home;
@@ -125,14 +133,6 @@
 				F0B4BC1727C3514200814467 /* CoinRowView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		F064E47F27C31D9D00D5F17A /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				F05648F027C446E1003D32F5 /* HomeViewModel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		F064E48227C31E8400D5F17A /* Components */ = {
